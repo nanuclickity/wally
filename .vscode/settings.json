@@ -1,8 +1,5 @@
 {
   "prettier.eslintIntegration": true,
-  "prettier.useTabs": false,
-  "prettier.tabWidth": 2,
-  "prettier.semi": false,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.fontSize": 16,

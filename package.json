@@ -8,14 +8,16 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node scripts/setup.js"
+    "postinstall": "DEBUG=wally:* node scripts/setup.js"
   },
   "author": "Tushar Kant",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
+    "chalk": "^2.4.2",
     "commander": "^2.20.0",
     "dotenv": "^7.0.0",
+    "lowdb": "^1.0.0",
     "mime": "^2.4.2",
     "ora": "^3.4.0",
     "prettier": "^1.17.0",
