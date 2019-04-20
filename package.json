@@ -1,8 +1,7 @@
 {
   "name": "@tshr/wally",
-  "version": "0.0.2",
-  "description": "Downloads and sets wallpaper from unsplash",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Downloads and sets wallpaper",
   "bin": {
     "wally": "./bin/wally"
   },
@@ -10,13 +9,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "DEBUG=wally:* node scripts/setup.js"
   },
-  "author": "Tushar Kant",
+  "author": "Tushar Kant <me@tushar.works> https://tushar.works",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
+    "clean-stack": "^2.1.0",
+    "cli-table3": "^0.5.1",
     "commander": "^2.20.0",
-    "dotenv": "^7.0.0",
     "lowdb": "^1.0.0",
     "mime": "^2.4.2",
     "ora": "^3.4.0",
@@ -30,5 +30,17 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanuclickity/wally.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nanuclickity/wally/issues"
+  },
+  "homepage": "https://github.com/nanuclickity/wally#readme"
 }
