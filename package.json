@@ -1,10 +1,14 @@
 {
-  "name": "wally",
-  "version": "1.0.0",
+  "name": "@tshr/wally",
+  "version": "0.0.1",
   "description": "Downloads and sets wallpaper from unsplash",
   "main": "index.js",
+  "bin": {
+    "wally": "./bin/wally"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node scripts/setup.js"
   },
   "author": "Tushar Kant",
   "license": "ISC",
