@@ -38,7 +38,11 @@ async function setup () {
     const dir = await getPicturesDirectory()
     const dbDefaults = {
       config: {
-        dir
+        dir,
+        unsplash_access_key: '',
+        unsplash_secret_key: '',
+        google_cse_api_key: '',
+        google_cse_id: ''
       },
       cache: []
     }
