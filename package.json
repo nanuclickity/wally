@@ -1,6 +1,6 @@
 {
   "name": "@tshr/wally",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Downloads and sets wallpaper from unsplash",
   "main": "index.js",
   "bin": {
