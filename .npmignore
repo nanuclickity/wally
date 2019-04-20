@@ -1,4 +1,8 @@
 node_modules/
+
 .vscode/
 .env
+.eslintrc.json
+.prettierrc
+
 db.json
