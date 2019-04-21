@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "DEBUG=wally:* node scripts/setup.js"
+    "postinstall": "node scripts/setup.js"
   },
   "author": "Tushar Kant <me@tushar.works> https://tushar.works",
   "license": "MIT",
