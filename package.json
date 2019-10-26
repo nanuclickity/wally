@@ -1,5 +1,5 @@
 {
-  "name": "@tshr/wally",
+  "name": "@nanuclickity/wally",
   "version": "0.0.1",
   "description": "Downloads and sets wallpaper",
   "bin": {
