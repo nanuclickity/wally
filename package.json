@@ -1,6 +1,6 @@
 {
   "name": "@nanuclickity/wally",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Downloads and sets wallpaper",
   "bin": {
     "wally": "./bin/wally"
