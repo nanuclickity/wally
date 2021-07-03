@@ -1,2 +1,2 @@
-#!/usr/bin/env node
-require('../lib')
+#!/usr/bin/env -S node --experimental-modules -r esm
+import '../lib'
