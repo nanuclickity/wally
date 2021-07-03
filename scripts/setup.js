@@ -13,7 +13,7 @@ async function getPicturesDirectory () {
     console.log(
       chalk.yellow(
         `Could not find your pictures directory at: ${osPicturesDir}` +
-          `\nplease manually set wally downloads dir by running:` +
+          '\nplease manually set wally downloads dir by running:' +
           `\n  ${chalk.white('wally set dir <path_to_dir>')}`
       )
     )
